@@ -113,4 +113,4 @@ Recomendar automaticamente a graduação mais adequada ao perfil do estudante.
 - Modelos Comparados 
 
 10. Deploy
-- Link
+- Link: https://huggingface.co/spaces/CarolACDR/Gradfinal
