@@ -1,14 +1,14 @@
 # machine-learning-projeto-final
 Projeto final de Machine Learning - CDIA
 
-#Descrição
+# Descrição
 
 Este projeto implementa um Pipeline Completo de Machine Learning para recomendar a graduação mais indicada para estudantes, com base em características pessoais e preferências acadêmicas.
 O modelo foi desenvolvido seguindo as boas práticas do ciclo CRISP-DM, incluindo análise exploratória, tratamento dos dados, modelagem, otimização e avaliação.
 O projeto atende aos requisitos da atividade final, que solicita pipeline completo com preparação, treinamento, comparação de modelos e documentação.
 
 
-#Objetivo
+# Objetivo
 
 Criar um modelo de Machine Learning capaz de prever a graduação mais indicada para um estudante com base em:
 
@@ -16,7 +16,7 @@ Criar um modelo de Machine Learning capaz de prever a graduação mais indicada 
 - Preferências acadêmicas
 - Interesses
 
-#DataSet Utilizado
+# DataSet Utilizado
 O dataset contém informações pessoais e preferências dos estudantes, além da graduação recomendada.
 
 - Variáveis Pessoais
@@ -24,25 +24,25 @@ O dataset contém informações pessoais e preferências dos estudantes, além d
 - Curso_Tecnico
 - Anos_Para_Formar
 
-#Preferências (escala 1 a 5)
+# Preferências (escala 1 a 5)
 
-Gosta_Matematica
-Gosta_Programacao
-Gosta_Biologia
-Gosta_Fisica
-Gosta_Quimica
-Gosta_Arte_Design
-Gosta_Comunicacao
-Gosta_Negocios
-Gosta_Historia
-Gosta_Geografia
+- Gosta_Matematica
+- Gosta_Programacao
+- Gosta_Biologia
+- Gosta_Fisica
+- Gosta_Quimica
+- Gosta_Arte_Design
+- Gosta_Comunicacao
+- Gosta_Negocios
+- Gosta_Historia
+- Gosta_Geografia
 
-#Classe Alvo
+# Classe Alvo
 
 Graduacao_Indicada
 
 
-##Metodologia CRISP-DM
+# Metodologia CRISP-DM
 
 1. Entendimento do Problema
 
@@ -92,8 +92,8 @@ Recomendar automaticamente a graduação mais adequada ao perfil do estudante.
 
 7. Balanceamento das Classes
 
-SMOTE - oversampling
-compute_sample_weiht: pesos das classes
+- SMOTE - oversampling
+- compute_sample_weiht: pesos das classes
 
 8. Pipeline do Projeto
 
@@ -106,14 +106,11 @@ compute_sample_weiht: pesos das classes
 - Registro e rastreamento dos experimentos (ex.: MLflow).
 - Escolha e salvamento do melhor modelo.
 
-9. Resultados 
+9. Result 
 
 - Acurácia
 - Ranking Final
 - Modelos Comparados 
 
 10. Deploy
-
-
-Graduacao_Indicada
 
